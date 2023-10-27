@@ -192,7 +192,7 @@ def main():
         st.markdown(" * "+current_question["correct_answer"])
         st.markdown(" * "+current_question["distractor1"])
         st.markdown(" * "+current_question["distractor2"])
-        st.markdown(" * "+current_question["distractor1"])
+        st.markdown(" * "+current_question["distractor3"])
 
         # Display the supporting text
         support_text = current_question["support"]
